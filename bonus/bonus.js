@@ -31,11 +31,23 @@ if (citta === milano) {
     console.log('tariffa Palermo', prezzoPalermo);
 }
 
-// prezzo finale tenendo conto dello sconto in base all'età
-// if (eta < 18) {
-//     console.log('prezzo scontato del 20%', prezzoBigliettoKm - (prezzoBigliettoKm / 100 * 20));
-// } else if (eta > 65) {
-//     console.log('prezzo scontato 40%', prezzoBigliettoKm - (prezzoBigliettoKm / 100 * 40));
-// } else {
-//     console.log('prezzo pieno', prezzoBigliettoKm);
+// prezzo finale tenendo conto dell'età
+if (eta < 18, citta === milano) {
+    console.log('prezzo milano scontato 20%', prezzoMilano - (prezzoMilano / 100 * 20));
+} if (eta < 18, citta === roma) {
+    console.log('prezzo roma scontato 20%', prezzoRoma - (prezzoRoma / 100 * 20));
+} if (eta < 18, citta === palermo) {
+    console.log('prezzo palermo scontato 20%', prezzoPalermo - (prezzoPalermo / 100 * 20));
+} if (eta > 65, citta === milano) {
+    console.log('prezzo milano scontato 20%', prezzoMilano - (prezzoMilano / 100 * 20));
+} if (eta > 65, citta === roma) {
+    console.log('prezzo roma scontato 20%', prezzoRoma - (prezzoRoma / 100 * 20));
+} if (eta > 65, citta === palermo) {
+    console.log('prezzo palermo scontato 20%', prezzoPalermo - (prezzoPalermo / 100 * 20));
+// } if (eta > = 18 && < = 65, citta === milano) {
+//     console.log('prezzo milano scontato 20%', prezzoMilano - (prezzoMilano / 100 * 20));
+// } if (eta > = 18 && < = 65, citta === roma) {
+//     console.log('prezzo roma scontato 20%', prezzoRoma - (prezzoRoma / 100 * 20));
+// } if (eta > = 18 && < = 65, citta === palermo) {
+//     console.log('prezzo palermo scontato 20%', prezzoPalermo - (prezzoPalermo / 100 * 20));
 // }

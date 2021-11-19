@@ -7,11 +7,14 @@
 // L’output del prezzo finale va messo fuori in forma umana(con massimo due decimali, per indicare centesimi sul prezzo).Questo richiederà un minimo di ricerca.
 
 // chiedo all'utente quanti chilometri dovrà percorrere
-let km = prompt('inserisci qui i chilometri che vuoi percorrere');
+let km = parseInt(prompt('inserisci qui i chilometri che vuoi percorrere'));
 console.log('chilometri', km);
 
 // chiedo all'utente la sua età
-let eta = prompt('inserisci qui la tua età');
+let eta = parseInt(prompt('inserisci qui la tua età'));
 console.log('età', eta);
 
 // definisco il prezzo del biglietto in base ai chilometri
+let prezzoBigliettoKm = 0.21 * km;
+console.log('prezzo biglietto in base ai chilometri', prezzoBigliettoKm);
+

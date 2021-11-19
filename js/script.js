@@ -18,3 +18,7 @@ console.log('età', eta);
 let prezzoBigliettoKm = 0.21 * km;
 console.log('prezzo biglietto in base ai chilometri', prezzoBigliettoKm);
 
+// prezzo finale tenendo conto dello sconto in base all'età
+if (eta < 18) {
+    console.log('prezzo finale', prezzoBigliettoKm - (prezzoBigliettoKm / 100 * 20));
+}

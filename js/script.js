@@ -20,5 +20,9 @@ console.log('prezzo biglietto in base ai chilometri', prezzoBigliettoKm);
 
 // prezzo finale tenendo conto dello sconto in base all'età
 if (eta < 18) {
-    console.log('prezzo finale', prezzoBigliettoKm - (prezzoBigliettoKm / 100 * 20));
+    console.log('prezzo scontato del 20%', prezzoBigliettoKm - (prezzoBigliettoKm / 100 * 20));
+} else if (eta > 65) {
+    console.log('prezzo scontato 40%', prezzoBigliettoKm - (prezzoBigliettoKm / 100 * 40));
+} else {
+    console.log('prezzo pieno', prezzoBigliettoKm);
 }
